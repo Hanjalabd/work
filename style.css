@@ -1,0 +1,51 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+.header{
+    height: 90vh;
+    width: 72%;
+    background-image: linear-gradient(rgba(47, 144, 125, 0.9),rgba(16, 29, 44, 0.9)),
+    url(image/i.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+.logo{
+    position: absolute;
+    top: -25px;
+    left: 28%;
+    width: 131px;
+}
+.text-box{
+    position: absolute;
+    padding: 16% 50px;
+}
+.mid{
+    font-size: 36px;
+    color: #fff;
+    display: block;
+    
+}
+.head{
+    font-size: 15px;
+    display: block;
+    color: #f1a951;
+}
+.btn{
+    font-size: 14px;
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    background-color: #f1a951;
+    border-radius: 6px;
+    display: inline-block;
+    padding: 8px 20px;
+}
