@@ -49,3 +49,24 @@ body{
     display: inline-block;
     padding: 8px 20px;
 }
+.about-section{
+    background-color: #fff;
+    padding: 50px 110px;
+}
+.d-flex{
+    display: flex;
+
+}
+.heading{
+    padding: 28px 28px;
+}
+.heading-sec{
+    font-size: 21px;
+    color: #000000;
+    padding: 19px 0;
+}
+.paragraph{
+    font-size: 15px;
+    color: #000000;
+
+}
