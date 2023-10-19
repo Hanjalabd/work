@@ -10,6 +10,9 @@ body{
     font-weight: 400;
     line-height: 1.6;
 }
+.col-1-of-2{
+    width: 50%;
+}
 .header{
     height: 90vh;
     width: 72%;
@@ -68,5 +71,56 @@ body{
 .paragraph{
     font-size: 15px;
     color: #000000;
+}
+.about{
+    family: 'Exo', sans-serif;
+}
+.photo{
+    width: 35%;
+}
+.img-box{
+    position: relative;
+}
+.img{
+    width: 30%;
+    position: absolute;
+    outline-offset: 12px;
+}
+.img-1{
+    height: 277px;
+    width: 100%;
+}
 
+.img-2{
+    left: 17%;
+    top: 37px;
+    height: 180px;
+    width:  274px;
+}
+.img-3{
+    left: 52%;
+    top: 77px;
+    width: 281px;
+    padding: 31px;
+}
+.flex-gap{
+    gap: 87px;
+}
+
+.text-boxes{
+    height: 420px;
+    background-color: #fff;
+}
+
+.image-box{
+    border-radius: 3PX;
+    background-color: #f7f7f7;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+    padding: 20px 12px;
+    text-align: center;
+    
+}
+.image-size-1{
+    height: 45%;
+    width: 45%;
 }
