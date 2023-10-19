@@ -20,6 +20,7 @@ body{
     url(image/i.jpeg);
     background-size: cover;
     background-position: top;
+    padding: 75px 95px;
 }
 .logo{
     position: absolute;
@@ -44,6 +45,7 @@ body{
 }
 .btn{
     font-size: 14px;
+    margin: 20px 0px;
     text-decoration: none;
     border: none;
     color: #fff;
@@ -53,8 +55,8 @@ body{
     padding: 8px 20px;
 }
 .about-section{
-    background-color: #fff;
-    padding: 50px 110px;
+    background-color: #c7c1c1;
+    padding: 75px 95px;
 }
 .d-flex{
     display: flex;
@@ -74,6 +76,7 @@ body{
 }
 .about{
     family: 'Exo', sans-serif;
+
 }
 .photo{
     width: 35%;
@@ -104,12 +107,13 @@ body{
     padding: 31px;
 }
 .flex-gap{
-    gap: 87px;
+    gap: 177px;
 }
 
 .text-boxes{
-    height: 420px;
-    background-color: #fff;
+    height: 277px;
+    width: 100%;
+    background-color: #f9e0e0;
 }
 
 .image-box{
@@ -120,7 +124,100 @@ body{
     text-align: center;
     
 }
-.image-size-1{
-    height: 45%;
-    width: 45%;
+.feature-section{
+    background-color: #f7f7f7;
+    padding: 75px 95px;
+}
+.feature{
+    background-color: #f9e0e0;
+    width: 260px;
+    height: 350px;
+    margin: 40px;
+}
+.feature-list{
+    margin-top: -18px;
+    margin-left: 35px;
+}
+.feature-list-1{
+    margin-top: 30px;
+}
+.p{
+    font-size: 17px;
+    margin-top: 26px;
+    margin-left: 30px;
+}
+.p-1{
+    font-size: 15px;
+    margin-top: 28px;
+    margin-left: 30px;
+}
+.worth{
+    font-size: 12px;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+.worth-1{
+    font-size: 12px;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+.work{
+    font-size: 15px;
+    background-color: rgba(16, 29, 44, 0.9);
+    text-align: center;
+    color: #f7f7f7;
+    width: 86%;
+    height: 39px;
+    padding: 5px 0;
+}
+.work-1{
+    font-size: 18px;
+    background-color: #af8d55;
+    text-align: center;
+    color: #f7f7f7;
+    width: 100%;
+    padding: 0 3px;
+}
+.inner-card{
+    background-image: url(image/bc.jpeg);
+    height: 160px;
+    width: 260px;
+    background-position: center;
+    background-size: cover;
+}
+.inner-card-2{
+    background-image: url(image/ab.jpeg);
+    height: 160px;
+    width: 260px;
+    background-position: center;
+    background-size: cover;
+}
+.inner-card-3{
+    background-image: url(image/f.jpeg);
+    height: 160px;
+    width: 260px;
+    background-position: center;
+    background-size: cover;
+}
+.inner-card-4{
+    background-image: url(image/c.jpeg);
+    height: 160px;
+    width: 260px;
+    background-position: center;
+    background-size: cover;
+}
+.inner-card-5{
+    background-image: url(image/g.jpeg);
+    height: 160px;
+    width: 260px;
+    background-position: center;
+    background-size: cover;
+}
+
+.inner-card-6{
+    background-image: url(image/e.jpeg);
+    height: 160px;
+    width: 260px;
+    background-position: center;
+    background-size: cover;
 }
